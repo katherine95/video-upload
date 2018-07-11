@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Top navigation bar on video player activity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2e3a4a"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageButton
+        android:id="@+id/navigationLeftButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@null"
+        android:src="@drawable/back_arrow"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ddd" />
+
+    <TextView
+        android:id="@+id/navigationTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingRight="24dp"
+        android:text="Title here..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ddd"
+        android:textSize="18sp" />
+</LinearLayout>
